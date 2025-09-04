@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "wdd130-1",
+			"path": "../wdd130-1"
+		}
+	],
+	"settings": {
+		"git.confirmSync": false,
+		"explorer.fileNesting.expand": false,
+		"explorer.compactFolders": false,
+		"explorer.decorations.colors": false,
+		"explorer.decorations.badges": false,
+		"explorer.openEditors.minVisible": 0,
+		"explorer.autoOpenDroppedFile": false,
+		"liveServer.settings.multiRootWorkspaceName": "wdd130"
+	}
+}
