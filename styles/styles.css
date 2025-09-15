@@ -48,6 +48,27 @@ aside {
     position: relative;
 }
 
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.ghana-text {
+    position: absolute;
+    top: 40px; /* << shifts it up a little from where it was */
+    left: 20px;
+    color: #000;
+    font-size: 28px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0 .8);
+}
+
 aside img {
     width: 200px;
     height: auto;
