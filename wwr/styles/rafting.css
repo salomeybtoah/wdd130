@@ -31,7 +31,7 @@ nav, p, section, article0 {
     margin: 1rem;
     padding: 0.5rem;
 }
-.socialmedia {
+.socialmedia a {
     text-decoration: none;
 }
 .hero {
