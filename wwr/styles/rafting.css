@@ -63,7 +63,7 @@ nav, p, section, article0 {
     padding: 8px 14px;
     border-radius: 8px;
     background-color: rgba(0, 128, 128, 0.85);
-    box-shadow: 0 4px 12px rgba(0, 128, 128, 0.4);
+    box-shadow: 0 4px 12px rgba(0, 128, 128, 0.6);
 }
 .hero article p {
     flex: 1;
