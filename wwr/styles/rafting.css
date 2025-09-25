@@ -107,10 +107,10 @@
 .adventure {
     margin: 40px 0;
     text-align: center;
-    border-radius: 2px solid #333;
+    border-radius: 8px;
     padding: 20px;
     background-color: #10b981;
-    border: 8px;
+    border: 2px solid #333;
 }
 
 .adventure h2 {
