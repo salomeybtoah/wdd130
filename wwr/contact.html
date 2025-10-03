@@ -65,11 +65,13 @@
                         <label>Message Purpose:</label>
 
                         <div class="radio-group" role="radiogroup" aria-label="message-purpose">
-                            <label><input type="radio" name="purpose" value="inquiry" required>General
+                            <label><input type="radio" id="purpose-inquiry" name="purpose" value="inquiry"
+                                    required>General
                                 Inquiry</label>
-                            <label><input type="radio" name="purpose" value="reservation">Reservation
+                            <label><input type="radio" id="purpose-reservation" name="purpose"
+                                    value="reservation">Reservation
                                 Question</label>
-                            <label><input type="radio" name="purpose" value="suggestion">Website
+                            <label><input type="radio" id="purpose-suggestion" name="purpose" value="suggestion">Website
                                 Suggestion</label>
                         </div>
                     </div>
@@ -78,7 +80,7 @@
                     <textarea id="message" name="message" rows="4" placeholder="Write your message here..."></textarea>
 
                     <label class="checkbox-item">
-                        <input type="checkbox" name="subscribe"> Please subscribe me to the monthly
+                        <input type="checkbox" id="subscribe" name="subscribe"> Please subscribe me to the monthly
                         newsletter</label>
 
                     <button type="submit">Get in Touch</button>
