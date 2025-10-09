@@ -861,7 +861,7 @@ nav a.active {
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 1rem;
-  border: 3px solid #ffcc00;
+  border: 3px solid #008080;
 }
 /* ======= SMALL SCREEN TWEAKS ======= */
 @media (max-width: 768px) {
