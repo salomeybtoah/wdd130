@@ -863,6 +863,18 @@ nav a.active {
   margin-bottom: 1rem;
   border: 3px solid #ffcc00;
 }
+/* ======= SMALL SCREEN TWEAKS ======= */
+@media (max-width: 768px) {
+  .comparison-table th,
+  .comparison-table td {
+    font-size: 0.85rem;
+    padding: 0.8rem;
+  }
+
+  .testimonial-card {
+    padding: 1rem;
+  }
+}
 .quote {
   font-style: italic;
   color: #333;
@@ -886,13 +898,6 @@ nav a.active {
 }
 
 /* ======= CTA ADJUSTMENT ======= */
-.cta {
-  background: linear-gradient(to right, #004d4d, #006666);
-  color: #fff;
-  padding: 3rem 2rem;
-  text-align: center;
-}
-
 .cta .btn {
   background-color: #ffcc00;
   color: #004d4d;
@@ -903,25 +908,15 @@ nav a.active {
   color: #004d4d;
 }
 
-/* ======= SMALL SCREEN TWEAKS ======= */
-@media (max-width: 768px) {
-  .comparison-table th,
-  .comparison-table td {
-    font-size: 0.85rem;
-    padding: 0.8rem;
-  }
-
-  .testimonial-card {
-    padding: 1rem;
-  }
-}
-
 /* ========== CALL TO ACTION ========== */
 .cta {
-  background-color: #004d4d;
+  background: linear-gradient(to right, #004d4d, #006666);
   color: #fff;
   text-align: center;
-  padding: 3rem 2rem;
+  padding: 1.5rem 2rem;
+}
+section.cta {
+  padding: 0.8rem 1rem;
 }
 .cta,
 .cta h2,
@@ -932,8 +927,8 @@ nav a.active {
 
 
 .cta h2 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .cta p {
