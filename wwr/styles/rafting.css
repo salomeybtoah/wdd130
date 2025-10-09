@@ -1092,6 +1092,23 @@ nav ul li a {
 nav ul li a.active {
     border-bottom: 2px solid #0077b6;
 }
+header, .header-table, .site-header {
+  background-color: #004d4d !important; /* darker teal — keeps theme and improves contrast */
+}
+header nav ul li a,
+header .nav-table td a,
+.main-nav a,
+.nav-table td a {
+  color: #ffffff !important;
+}
+header nav ul li a:hover,
+header nav ul li a.active,
+.nav-table td a:hover,
+.nav-table td a.active,
+.main-nav a:hover,
+.main-nav a.active {
+  color: #ffcc00 !important; /* accessible and visible on teal */
+}
 
 /* ===== Hero Section ===== */
 .hero {
