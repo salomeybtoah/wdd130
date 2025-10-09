@@ -998,12 +998,12 @@ footer {
   white-space: nowrap;
   font-size: 4rem;
   font-weight: 700;
-  margin-bottom: 0 0 2rem 0;
+  margin-bottom: 2rem;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
   background: none !important;
   border: none !important;
   box-shadow: none !important;
-  padding-bottom: 3rpx;
+  padding-bottom: 3px;
 }
 
 .hero-text p {
