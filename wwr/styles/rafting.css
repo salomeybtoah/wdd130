@@ -7,6 +7,8 @@
     --background-color: #f3f4f6;
     --accent-color: #10b981;
 }
+
+/* About Us Page */
 * {
     margin: 0;
     padding: 0;
@@ -246,6 +248,7 @@ footer a img {
     text-decoration: none;
 }
 
+/* ===== Contact Page ===== */
 
 * {
     margin: 0;
@@ -617,6 +620,47 @@ nav a {
 nav a:hover,
 nav a.active {
   color: #ffcc00;
+}
+/* Header container */
+.header-table {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #008080; /* teal background */
+}
+
+/* Logo */
+.header-table .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff; /* white logo text */
+}
+
+/* Navigation table */
+.nav-table table {
+    border-collapse: collapse;
+}
+
+.nav-table td {
+    border: 2px solid #ffffff; /* white lines like in screenshot */
+    text-align: center;
+    width: 150px; /* equal width for all cells */
+}
+
+.nav-table td a {
+    display: block;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    color: #ffffff; /* white text */
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+/* Hover / active effect */
+.nav-table td a:hover,
+.nav-table td a.active {
+    background-color: #00bfae; /* lighter teal highlight */
 }
 
 /* ========== HERO SECTION ========== */
