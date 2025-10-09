@@ -1224,8 +1224,8 @@ nav ul li a.active {
 }
 
 .newsletter-form button:hover {
-  background-color: #004d4d;
-  transform: scale(1.03);
+  background-color: #005f5f;
+  color: #fff;
 }
 
 /* Mobile responsiveness */
