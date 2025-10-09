@@ -1053,7 +1053,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #008080;
+    background-color: #006666;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     position: sticky;
     top: 0;
@@ -1075,13 +1075,13 @@ nav ul {
 }
 header nav ul li a {
   text-decoration: none;
-  color: #fff; /* white links on teal background */
+  color: #ffffff; /* white links on teal background */
   font-weight: 500;
   transition: color 0.3s ease;
 }
 header nav ul li a:hover,
 header nav ul li a.active {
-  color: #00bfae; /* lighter teal on hover */
+  color: #ffcc00; /* lighter teal on hover */
 }
 
 nav ul li a {
