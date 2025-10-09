@@ -70,14 +70,14 @@
     gap: 10px;
     margin: 40px 0;
     align-items: start;
-    border: 2px solid #333;
+    border: 2px solid white;
     padding: 20px;
-    background-color: #10b981;
+    background-color: #20b2aa;
 }
 
 .history-box {
-    background: #10b981;
-    color: wheat;
+    background: #008080;
+    color: black;
     padding: 20px;
     text-align: center;
     border-radius: 6px;
@@ -97,6 +97,7 @@
 
 .history-box h2 {
     margin-bottom: 10px;
+    color: black;
 }
 
 .history-text p {
@@ -106,19 +107,21 @@
     margin: 0;
 }
 
-.adventure {
+.adventures {
     margin: 40px 0;
     text-align: center;
-    border-radius: 8px;
-    padding: 20px;
-    background-color: #10b981;
-    border: 2px solid #333;
+    padding: 10px;
+}
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
 }
 
-.adventure h2 {
+.adventures h2 {
     margin-bottom: 20px;
     font-size: 24px;
     font-weight: bold;
+    color: #004d4d;
 }
 
 .adventure-gallery {
@@ -180,10 +183,6 @@ header, main, footer{
     margin: 0 auto;
 
 }
-h1, h2 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-}
 nav, p, section, article0 {
     margin: 1rem;
     padding: 0.5rem;
@@ -193,31 +192,42 @@ nav, p, section, article0 {
 }
 .hero {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+    z-index: 10;
+    margin-top: 10px;
 }
 .hero img {
     display: block;
     width: 100%;
-    height: auto;
+    height: 500px;
+    object-fit: cover;
 }
 .hero h1 {
     position: absolute;
-    top: 10%;
-    left: 40%;
-    text-align: center;
+    top: 3%; /* Moved higher up */
+    left: 50%;
     transform: translateX(-50%);
+    text-align: center;
     font-size: 3rem;
-    color: rgba(255, 255, 255, 0.8);
-    background-color: rgba(0, 128, 128, 0.6);
-    padding: 10px 15px;
-    border-radius: 6px;
+    color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(0, 128, 128, 0.7);
+    padding: 5px 15px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: none;
+    white-space: nowrap;
 }
 .hero article {
     position: absolute;
-    bottom: 12%;
+    bottom: 4%;
     left: 50%;
     transform: translateX(-50%);
-    width: 80%;
-    max-width: 1000px;
+    width: 100%;
+    max-width: none;
     padding: 8px 14px;
     border-radius: 8px;
     background-color: rgba(0, 128, 128, 0.85);
