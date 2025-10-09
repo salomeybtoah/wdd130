@@ -1,5 +1,5 @@
 :root {
-    --body-font: 'Arial, sans--serif';
+    --body-font: 'Arial, sans-serif';
     --heading-font: 'Georgia, serif';
     --primary-color: #1e3a8a;
     --secondary-color: #90e0ef;
@@ -183,7 +183,7 @@ header, main, footer{
     margin: 0 auto;
 
 }
-nav, p, section, article0 {
+nav, p, section, article {
     margin: 1rem;
     padding: 0.5rem;
 }
