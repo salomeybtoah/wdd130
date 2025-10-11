@@ -1260,16 +1260,32 @@ header nav ul li a.active,
     padding: 3rem 2rem;
 }
 
+/* Heading inside the Info Grid */
+.info-grid-section h2 {
+    text-align: center;
+    color: #006666; /* darker teal color */
+    font-size: 2rem;
+    margin-bottom: 0.3rem;
+    font-weight: 700;
+}
+.info-grid-section {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
 .info-grid article {
     background-color: #ffffff;
     padding: 1rem;
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     text-align: center;
+    aspect-ratio: 1 / 1;
 }
 
 .info-grid article img {
     width: 100%;
+    height: 70%;
+    object-fit: cover;
     border-radius: 10px;
     margin-bottom: 1rem;
 }
