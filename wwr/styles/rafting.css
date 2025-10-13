@@ -29,7 +29,7 @@
 }
 
 .main-nav ul {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(4, 1fr);
     justify-content: flex-end;
     list-style: none;
