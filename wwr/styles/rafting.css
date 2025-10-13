@@ -74,6 +74,8 @@
     padding: 20px;
     background-color: #20b2aa;
     border-radius: 15px;
+    position: relative;
+    z-index: 0;
 }
 
 .history-box {
