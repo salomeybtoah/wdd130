@@ -97,7 +97,11 @@
 
 .history-box h2 {
     margin-bottom: 10px;
-    color: black;
+    color: #ffffff;
+    font-size: 1.8rem; /* make it larger */
+  font-weight: 600; /* bold for emphasis */
+  text-transform: uppercase; /* optional: gives it a strong visual style */
+  letter-spacing: 1px; 
 }
 
 .history-text p {
