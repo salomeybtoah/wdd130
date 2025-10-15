@@ -1,8 +1,8 @@
 :root {
     --body-font: 'Arial, sans-serif';
     --heading-font: 'Georgia, serif';
-    --primary-color: #1e3a8a;
-    --secondary-color: #90e0ef;
+    --primary-color: #008080;
+    --secondary-color: #006666;
     --text-color: #1f2937;
     --background-color: #f3f4f6;
     --accent-color: #10b981;
@@ -769,61 +769,49 @@ nav a.active {
   color: #004d4d;
 }
 
-/* ======= TRIP COMPARISON ======= */
-.trip-comparison {
-  padding: 3rem 8%;
-  background-color: #e8f6f6;
+/* ===== Trips Table Section ===== */
+.trip-table {
+  margin: 4rem auto;
+  padding: 2rem;
+  max-width: 900px;
+  background-color: #f8f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
-.trip-comparison h2 {
-  color: #004d4d;
-  font-size: 2rem;
-  margin-bottom: 2rem;
-}
-.comparison-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
-}
-.comparison-card {
-  background-color: #fff;
-  border-radius: 12px;
-  padding: 1.8rem;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  text-align: left;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.comparison-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
-}
-.comparison-card h3 {
-  color: #004d4d;
-  font-size: 1.3rem;
-  margin-bottom: 1rem;
-  border-bottom: 2px solid #ffcc00;
-  padding-bottom: 0.5rem;
+
+.trip-table h2 {
+  color: var(--primary-color, #008080);
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
 }
 
-.comparison-details p {
-  font-size: 0.95rem;
-  color: #333;
-  margin: 0;
+.trip-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
 }
 
-.comparison-details strong {
-  color: #004d4d;
+.trip-table th,
+.trip-table td {
+  padding: 1rem;
+  border: 1px solid #ccc;
 }
 
-/* Responsive Spacing */
-@media (max-width: 768px) {
-  .trip-comparison {
-    padding: 2rem 5%;
-  }
+.trip-table th {
+  background-color: var(--primary-color, #008080);
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
 
-  .comparison-card {
-    padding: 1.5rem;
-  }
+.trip-table tr:nth-child(even) {
+  background-color: #eefaf9;
+}
+
+.trip-table tr:hover {
+  background-color: #dff5f3;
+  transition: background-color 0.3s ease;
 }
 /* ======= TESTIMONIALS ======= */
 .testimonials {
