@@ -585,6 +585,8 @@ footer .socialicon a img {
     height: 30px;
 }
 
+/* Trips Page */
+
 /* ========== GENERAL RESET ========== */
 * {
   margin: 0;
@@ -799,8 +801,8 @@ nav a.active {
 }
 
 .trip-table th {
-  background-color: var(--primary-color, #008080);
-  color: white;
+  background-color: #ffffff;
+  color: #005f5f;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
