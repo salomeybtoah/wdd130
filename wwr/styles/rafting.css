@@ -1216,6 +1216,15 @@ header nav ul li a.active,
   font-size: 1rem;
   outline: none;
 }
+.newsletter-form .input-group {
+  text-align: left;
+}
+
+.newsletter-form label {
+  font-weight: 600;
+  color: #004d4d;
+}
+
 
 .newsletter-form button {
   background-color: #005c5c;
